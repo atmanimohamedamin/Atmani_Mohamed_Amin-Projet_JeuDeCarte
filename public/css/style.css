@@ -18,34 +18,67 @@ header{
 .divTop{
     display: flex;
     justify-content: space-around;
+    
 }
 
-.card1{
+.divBottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.flip-card {
+    background-color: transparent;
     width: 200px;
     height: 300px;
+    
+  }
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* -webkit-backface-visibility: hidden; */
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    background: url(./../src/img/back.jpg);
+    background-size: cover;
+  }
+  
+ 
+  .flip-card-back {
     background: url(./../src/img/ichigoBg.jpg);
     background-size: cover;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
 .image1{
     width: 100%;
     height: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-}
-
-.card2{
-    width: 200px;
-    height: 300px;
-    background: url(./../src/img/gokuBg.jpg);
-    background-size: cover;
-    background-position: 55%;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 .image2{
@@ -55,33 +88,11 @@ header{
     margin-bottom: 10px;
 }
 
-.card3{
-    width: 200px;
-    height: 300px;
-    background: url(./../src/img/luffyBg.png);
-    background-size: cover;
-    background-position: 70%;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
 .image3{
     width: 100%;
     height: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-}
-
-.card4{
-    width: 200px;
-    height: 300px;
-    background: url(./../src/img/narutoBg.png);
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 .image4{
@@ -91,8 +102,8 @@ header{
     margin-bottom: 10px;
 }
 
-.divBottom{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-}
+
+
+
+
+
