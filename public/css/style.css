@@ -1,0 +1,98 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./../src/img/fond-image.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 40px;
+    color: white;
+}
+
+.divTop{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    width: 200px;
+    height: 300px;
+    background: url(./../src/img/ichigoBg.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card2{
+    width: 200px;
+    height: 300px;
+    background: url(./../src/img/gokuBg.jpg);
+    background-size: cover;
+    background-position: 55%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card3{
+    width: 200px;
+    height: 300px;
+    background: url(./../src/img/luffyBg.png);
+    background-size: cover;
+    background-position: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card4{
+    width: 200px;
+    height: 300px;
+    background: url(./../src/img/narutoBg.png);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image4{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.divBottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
